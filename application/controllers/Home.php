@@ -12,7 +12,9 @@ class Home extends CI_Controller {
 		$data['pendaftar'] = $this->M_pendaftar->getRandom();
 		$this->load->view('v_home',$data);
 	}
-
+	public function baru(){
+		echo "test";
+	}
 }
 
 /* End of file Home.php */
