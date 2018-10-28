@@ -4,6 +4,6 @@
 	<title></title>
 </head>
 <body>
- file baru
+ file baru kedua
 </body>
 </html>
