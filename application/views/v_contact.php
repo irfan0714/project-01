@@ -1,0 +1,37 @@
+<?php 
+ $this->load->view('template/header');
+?>
+<div class="well well-lg">
+	<div class="container">
+		<h2>Kontak Kami</h2>
+		<span>Beberapa kontak yang bisa di hubungi.</span>
+	</div>
+</div>
+<div class="container">
+	<div class="row">
+		<div class="col-xs-3">
+			<div class="list-group">
+				<a href="<?php echo site_url('contact'); ?>" title="" class="list-group-item"><i class="glyphicon glyphicon-phone-alt"></i> Kontak Kami</a>
+				<a href="<?php echo site_url('tentang'); ?>#tentang" title="" class="list-group-item"><i class="glyphicon glyphicon-info-sign"></i> Tentang Website</a>
+			</div>
+		</div>
+		<div class="col-xs-9">
+			<div class="panel panel-default" id="tentang">
+				<div class="panel-heading">
+					<h3 style="padding: 0;margin:0;">Kontak Kami</h3>
+				</div>
+				<div class="panel-body">
+					Terima kasih sudah mengunjungi website ini, apabila ada pertanyaan bisa hubungi beberapa contact berikut:<br><br>
+					<ul>
+						<li>No.HP : 087889103367</li>
+						<li>Whatshap : <b>087889103367</b></li>
+						<li>Website: <b><a href="#" target="_blank">http://golekkerja.com</a></b></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<?php 
+ $this->load->view('template/footer');
+?>
